@@ -124,7 +124,9 @@ p.success {
 p.danger {
   color: red;
 }
-/************ Navbar Css ************/
+
+/* Navbar Css */
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -186,7 +188,7 @@ span.navbar-text {
   transform: scale(1);
 }
 .social-icon a img {
-  width: 40%;
+  width: 95%;
   z-index: 1;
   transition: 0.3s ease-in-out;
 }
@@ -218,7 +220,8 @@ span.navbar-text {
   left: 0;
   top: 0;
   z-index: -1;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
+  border-radius: 20px;
 }
 .navbar-text button:hover {
   color: #121212;
