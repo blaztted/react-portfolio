@@ -51,12 +51,11 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              {`Hey! I'm Bruno Silva
-
+              {`Heyy! I'm Bruno Silva
               `}
-              <span className="wrap">
-                <b>{text}</b>
-              </span>
+              <br></br>
+
+              <span className="wrap">{text}</span>
             </h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam

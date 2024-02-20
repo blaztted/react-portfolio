@@ -93,7 +93,7 @@ export const Projects = () => {
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
+                          explicabo excepturi id illo molestiaec blanditiis,
                           eligendi dicta officiis asperiores delectus quasi
                           inventore debitis quo.
                         </p>
