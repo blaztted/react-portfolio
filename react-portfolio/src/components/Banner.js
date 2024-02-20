@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/headerImg.jpg";
+import headerImg from "../assets/img/headerImg.png";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "Web Designer", "Nakama"];
+  const toRotate = ["Web Developer", "Front-End"];
 
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 10);
@@ -51,8 +51,12 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              {`Heyyyyy`}
-              <span className="wrap">{text}</span>
+              {`Hey! I'm Bruno Silva
+
+              `}
+              <span className="wrap">
+                <b>{text}</b>
+              </span>
             </h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
