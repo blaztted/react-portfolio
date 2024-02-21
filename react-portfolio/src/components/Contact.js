@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import contactImg from "../assets/img/git.png";
+import contactImg from "../assets/img/call.png";
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -49,7 +49,7 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
-          <Col md="{6}">
+          <Col md={6}>
             <img src={contactImg} alt="Contact Us" />
           </Col>
           <Col md={6}>

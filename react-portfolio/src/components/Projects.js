@@ -1,5 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import ProjectsList from "./ProjectCard";
 import projImg1 from "../assets/img/Earth.jpg";
 import projImg2 from "../assets/img/Earth.jpg";
 import projImg3 from "../assets/img/Earth.jpg";
@@ -8,38 +9,7 @@ import projImg3 from "../assets/img/Earth.jpg";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
-  const projects = [
-    {
-      title: "Kickspot Ecommerce",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "blablablalb",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "blablablalb",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "blablablalb",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "blablablalb",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "blablablalb",
-      imgUrl: projImg3,
-    },
-  ];
+  const projects = ProjectsList.slice(0, 6);
   return (
     <section className="project" id="projects">
       <Container>

@@ -1,4 +1,9 @@
 import { Col } from "react-bootstrap";
+//import projectsData from "./projectsData.json";
+import projImg1 from "../assets/img/Earth.jpg";
+import projImg2 from "../assets/img/Earth.jpg";
+import projImg3 from "../assets/img/Earth.jpg";
+//import projectsData from "./ProjectData.json";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
@@ -13,3 +18,40 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
     </Col>
   );
 };
+
+export const ProjectsList = [
+  {
+    title: "Kickspot Ecommerce",
+    description: "Design & Development",
+    imgUrl: projImg1,
+  },
+  {
+    title: "Business Startup",
+    description: "blablablalb",
+    imgUrl: projImg2,
+  },
+  {
+    title: "Business Startup",
+    description: "blablablalb",
+    imgUrl: projImg3,
+  },
+  {
+    title: "Business Startup",
+    description: "blablablalb",
+    imgUrl: projImg1,
+  },
+  {
+    title: "Business Startup",
+    description: "blablablalb",
+    imgUrl: projImg2,
+  },
+  {
+    title: "Business Startup",
+    description: "blablablalb",
+    imgUrl: projImg3,
+  },
+];
+
+// export const ProjectsList = projectsData;
+
+export default ProjectsList;
