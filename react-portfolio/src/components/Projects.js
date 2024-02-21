@@ -1,15 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import ProjectsList from "./ProjectCard";
-import projImg1 from "../assets/img/Earth.jpg";
-import projImg2 from "../assets/img/Earth.jpg";
-import projImg3 from "../assets/img/Earth.jpg";
 // import colorSharp2 from "../assets/img/color-sharp2.png";
 //import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
-  const projects = ProjectsList.slice(0, 6);
   return (
     <section className="project" id="projects">
       <Container>
@@ -54,7 +50,7 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.map((project, index) => {
+                          {ProjectsList.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>

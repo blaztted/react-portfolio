@@ -83,7 +83,12 @@ export const NavBar = () => {
               </a>
             </div>
             <button className="vvd" onClick={() => console.log("connect")}>
-              <span>Resume</span>{" "}
+              <a
+                href="https://drive.google.com/file/d/1u_VNfknNnc0nne2IUUBgK5FXRIRsqAJ1/view?usp=sharing"
+                target="_blank"
+              >
+                <span>Resume</span>
+              </a>
             </button>
           </span>
         </Navbar.Collapse>
