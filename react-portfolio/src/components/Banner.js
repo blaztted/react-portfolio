@@ -58,16 +58,17 @@ export const Banner = () => {
               <span className="wrap">{text}</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor
-              massa. Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Nulla at risus. Quisque purus
-              magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis,
-              felis ut adipiscing
+              Front-end developer based in London, UK. <br></br>I have developed
+              various front-end solutions, including E-commerce platforms and
+              Recipe applications.<br></br> Passionate about creating visually
+              stunning interfaces with meticulous attention to detail, coupled
+              with an emphasis on intuitive user experiences.
             </p>
-            <button onClick={() => console.log("connect")}>
-              Let's connect <ArrowRightCircle size={25} />
-            </button>
+            <a href="https://github.com/blaztted">
+              <button onClick={() => console.log("connect")}>
+                Let's connect <ArrowRightCircle size={25} />
+              </button>
+            </a>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header img" />
