@@ -439,6 +439,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+#Skills
+  > div
+  > div
+  > div
+  > div
+  > div
+  > button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+  margin-right: -25px;
+}
+
+#Skills
+  > div
+  > div
+  > div
+  > div
+  > div
+  > button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+  margin-left: -25px;
+}
+
 /* Projects */
 .project-link {
   display: flex;
@@ -614,7 +634,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     #1c1c1c,
     #000000
   );
-  padding: 60px 0 200px 0;
+  padding: 60px 0 100px 0;
 }
 .contact img {
   width: 62%;
@@ -691,7 +711,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Footer */
 .footer {
-  padding: 50px 0 0;
+  padding: 35px 0 0;
   background: #121212;
   background-position: center center;
   background-size: cover;
