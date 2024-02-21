@@ -6,6 +6,8 @@ import meter2 from "../assets/img/logo/css.png";
 import meter3 from "../assets/img/logo/java-script.png";
 import meter4 from "../assets/img/logo/react.png";
 import meter5 from "../assets/img/logo/bootstrap.png";
+import meter6 from "../assets/img/logo/node-js.png";
+import meter7 from "../assets/img/logo/jest.png";
 
 //import colorSharp from
 
@@ -62,6 +64,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter5} alt="Image" />
                   <h5>Bootstrap</h5>
+                </div>
+                <div className="item">
+                  <img src={meter6} alt="Image" />
+                  <h5>Node.js</h5>
                 </div>
               </Carousel>
             </div>
