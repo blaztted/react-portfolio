@@ -1,8 +1,11 @@
 import { Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import projImg1 from "../assets/img/flavourfinder.png";
-import projImg2 from "../assets/img/Earth.jpg";
-import projImg3 from "../assets/img/Earth.jpg";
+import projImg2 from "../assets/img/kickspot-print.png";
+import projImg3 from "../assets/img/forkify.png";
+import projImg4 from "../assets/img/weather.png";
+import projImg5 from "../assets/img/readme.png";
+import projImg6 from "../assets/img/react-portfolio.png";
 
 export const ProjectCard = ({
   title,
@@ -41,39 +44,39 @@ export const ProjectsList = [
     githubLink: "https://github.com/blaztted/flavour-finder?tab=readme-ov-file",
   },
   {
-    title: "Business Startup",
-    description: "blablablalb",
+    title: "Kickspot Ecommerce",
+    description: "Design & Development",
     imgUrl: projImg2,
-    deployLink: "",
-    githubLink: "",
+    deployLink: "https://github.com/blaztted/kickspot-ecommerce",
+    githubLink: "https://github.com/blaztted/kickspot-ecommerce",
   },
   {
-    title: "Business Startup",
-    description: "blablablalb",
+    title: "Forkify",
+    description: "Design & Development",
     imgUrl: projImg3,
-    deployLink: "",
-    githubLink: "",
+    deployLink: "https://forkify-brunofinal.netlify.app/",
+    githubLink: "https://forkify-brunofinal.netlify.app/",
   },
   {
-    title: "Business Startup",
-    description: "blablablalb",
-    imgUrl: projImg3,
-    deployLink: "",
-    githubLink: "",
+    title: "Weather Dashboard",
+    description: "Design & Development",
+    imgUrl: projImg4,
+    deployLink: "https://blaztted.github.io/js-weather-dashboard/",
+    githubLink: "https://github.com/blaztted/js-weather-dashboard",
   },
   {
-    title: "Business Startup",
-    description: "blablablalb",
-    imgUrl: projImg3,
-    deployLink: "",
-    githubLink: "",
+    title: "Github Profile README Generator",
+    description: "Development",
+    imgUrl: projImg5,
+    deployLink: "https://github.com/blaztted/README-generator",
+    githubLink: "https://github.com/blaztted/README-generator",
   },
   {
-    title: "Business Startup",
-    description: "blablablalb",
-    imgUrl: projImg3,
+    title: "React Portfolio",
+    description: "Design & Development",
+    imgUrl: projImg6,
     deployLink: "",
-    githubLink: "",
+    githubLink: "https://github.com/blaztted/react-portfolio",
   },
 ];
 
