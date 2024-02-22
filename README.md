@@ -2,7 +2,7 @@
 
 This project can be found deployed [HERE](https://react-portfolio-bruno.netlify.app/).
 
-![web intro](./src/assets/img/screenshot-portfolio.png)
+![web intro](/react-portfolio/src/assets/img/screenshot-portfolio.png)
 
 ## Description
 
