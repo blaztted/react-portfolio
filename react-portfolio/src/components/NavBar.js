@@ -84,7 +84,7 @@ export const NavBar = () => {
             </div>
             <button className="vvd" onClick={() => console.log("connect")}>
               <a
-                href="https://drive.google.com/file/d/1u_VNfknNnc0nne2IUUBgK5FXRIRsqAJ1/view?usp=sharing"
+                href="https://drive.google.com/file/d/17CJRCtsbnGCrNeOGdQcm1eqbUrYCTLOR/view?usp=sharing"
                 target="_blank"
               >
                 <span>Resume</span>

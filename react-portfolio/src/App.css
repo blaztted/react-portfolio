@@ -129,9 +129,10 @@ p.danger {
 /* Navbar Css */
 
 #basic-navbar-nav > span > button > a {
-  color: rgb(255, 254, 254);
+  color: rgb(221, 221, 221);
   text-decoration: none;
   font-weight: 700;
+  font-size: 30p;
 }
 #basic-navbar-nav > span > button > a:hover {
   color: rgb(0, 0, 0);
@@ -139,9 +140,10 @@ p.danger {
   font-weight: 700;
 }
 
-#basic-navbar-nav > span > button:hover {
+/* #basic-navbar-nav > span > button:hover {
   color: black !important;
-}
+  font-size: 21px;
+} */
 
 nav.navbar {
   padding: 18px 0;

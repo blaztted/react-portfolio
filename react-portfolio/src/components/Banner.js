@@ -6,10 +6,10 @@ import headerImg from "../assets/img/blaztted.png";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "Front-End Developer"];
+  const toRotate = ["Web Developer"];
 
   const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 10);
+  const [delta, setDelta] = useState(200 - Math.random() * 10);
   const period = 2000;
 
   useEffect(() => {
@@ -58,13 +58,17 @@ export const Banner = () => {
               <span className="wrap">{text}</span>
             </h1>
             <p>
-              Front-end developer based in London, UK. <br></br>I have developed
-              various front-end solutions, including E-commerce platforms and
-              Recipe applications.<br></br> Passionate about creating visually
-              stunning interfaces with meticulous attention to detail, coupled
-              with an emphasis on intuitive user experiences.
+              Front-end developer based either in London or Lisbon. <br></br>I
+              have developed various front-end solutions, including E-commerce
+              platforms and Food-related applications.<br></br> Passionate about
+              creating visually stunning interfaces with meticulous attention to
+              detail, coupled with an emphasis on intuitive user experiences.
+              <br></br>Currently learning Three.js.
             </p>
-            <a href="https://github.com/blaztted">
+            <a
+              href="hwww.linkedin.com/in/brunosilva93
+"
+            >
               <button onClick={() => console.log("connect")}>
                 Let's connect <ArrowRightCircle size={25} />
               </button>
