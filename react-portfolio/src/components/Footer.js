@@ -10,13 +10,25 @@ export const Footer = () => {
         <Row className="justify-content-center align-items-center">
           <Col size={12} sm={6} className="text-center">
             <div className="social-icon">
-              <a href="#">
+              <a
+                href="https://github.com/blaztted/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon1} alt="Icon" />
               </a>
-              <a href="#">
+              <a
+                href="www.linkedin.com/in/brunosilva93"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon2} alt="Icon" />
               </a>
-              <a href="#">
+              <a
+                href="mailto:bbc.silva@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>
