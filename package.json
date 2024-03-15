@@ -19,6 +19,7 @@
   "homepage": "https://github.com/blaztted/react-portfolio#readme",
   "dependencies": {
     "create-react-app": "^5.0.1",
+    "emailjs-com": "^3.2.0",
     "react-bootstrap-icons": "^1.11.3"
   }
 }
