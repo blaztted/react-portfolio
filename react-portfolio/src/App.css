@@ -1,4 +1,5 @@
 /*Custom Fonts*/
+/*Custom Fonts*/
 @font-face {
   font-family: "Centra No2";
   src: url("https://db.onlinewebfonts.com/t/229a57bbeef591e04a1fdfe347c90864.eot");
@@ -608,10 +609,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 20px;
-  margin-left: 25px;
+  justify-content: center;
 }
+
+.deplinks #but {
+  margin: 0.9rem 0.3rem; /* Adjust the value as needed */
+}
+
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
